@@ -85,13 +85,6 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
-		6344A1B027DA37EB00B4057B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		63C0D50227CFE734007719B4 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +108,6 @@
 		63C0D50D27CFE734007719B4 /* NASA */ = {
 			isa = PBXGroup;
 			children = (
-				6344A1B027DA37EB00B4057B /* Model */,
 				6344A1AF27DA37BA00B4057B /* Supporting */,
 				63C0D51C27CFE737007719B4 /* Info.plist */,
 				6344A1B127DA384300B4057B /* ViewController.swift */,

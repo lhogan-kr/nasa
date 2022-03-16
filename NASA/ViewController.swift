@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // TODO: use closure syntax
     var tableView = UITableView()
     
     var data = [String]()
@@ -29,11 +30,8 @@ class ViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
         
+        // TODO: do some constraints here
         tableView.frame = view.bounds
         tableView.rowHeight = 50
     }
